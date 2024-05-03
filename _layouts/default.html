@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        {% include template/head.html %}
+    </head>
+    <body class="d-flex flex-column h-100">
+        <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+        {% include template/header.html %}
+        <main id="maincontent" role="main" aria-label="Content" class="mb-4 flex-shrink-0">
+        {{ content }}
+        {% if page.layout == "default" and page.timeline or page.timeline-json %}<div class="my-4"><div id="timeline-embed" style="height: 600px" class="w-100"></div></div>{% endif %}
+        </main>
+        {% include template/footer.html %}
+        {% include template/foot.html %}
+    </body>
+</html>

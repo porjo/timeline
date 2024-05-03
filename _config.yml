@@ -1,0 +1,58 @@
+#######
+#
+# timelinejs-template
+# basic template for self-hosted TimelineJS
+# https://github.com/thecdil/timelinejs-template
+#
+#######
+
+#######
+# SITE SETTINGS
+#
+title: timelinejs-template
+description: "basic template for self-hosted TimelineJS"
+year: 2020
+author: evan will 
+# add search box to navbar, true/false
+search: false
+
+#######
+# SITE URLs
+#
+# Optional if using GitHub Pages!
+# If building manually, these must be set correctly.
+#
+# add the url for the domain,
+# on gh-pages follow the pattern: https://username.github.io 
+# url: https://thecdil.github.io
+# add subsection of the domain,
+# on gh-pages this is a / followed by the name of the repository
+# baseurl: /timelinejs-template
+
+##########
+# GOOGLE ANALYTICS [optional!]
+#
+# leave this blank or comment out to NOT include google code
+# Add your google-analytics-id to automatically add the embed code, e.g. "G-123XXXXXX"
+# google-analytics-id: 
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
+
+
+#######
+# Defaults 
+# to simplify front matter
+# all files in the "pages" folder will be output at root of site
+defaults:
+  - scope:
+      path: "pages"
+    values:
+      layout: page
+      permalink: /:basename:output_ext
+
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
