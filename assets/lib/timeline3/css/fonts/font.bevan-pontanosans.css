@@ -4,6 +4,7 @@ https://www.google.com/fonts/specimen/Bevan
 https://www.google.com/fonts/specimen/Pontano+Sans
 ----------------------------------------------------- */
 /*	VARIABLES
+	BASE
 ----------------------------------------------------- */
 /* ICON PATH
 ================================================== */
@@ -23,13 +24,13 @@ https://www.google.com/fonts/specimen/Pontano+Sans
   font-family: 'Bevan';
   font-style: normal;
   font-weight: 400;
-  src: local('Bevan Regular'), local('Bevan-Regular'), url(https://fonts.gstatic.com/s/bevan/v12/4iCj6KZ0a9NXjG8dWC4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/bevan/v21/4iCj6KZ0a9NXjG8dWC4.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Pontano Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Pontano Sans'), local('PontanoSans-Regular'), url(https://fonts.gstatic.com/s/pontanosans/v8/qFdD35GdgYR8EzR6oBLDHa3axT8I.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/pontanosans/v16/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMrcGGow.ttf) format('truetype');
 }
 /*	Font Base
 ----------------------------------------------------- */
