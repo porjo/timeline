@@ -9,10 +9,10 @@
 #######
 # SITE SETTINGS
 #
-title: timelinejs-template
-description: "basic template for self-hosted TimelineJS"
-year: 2020
-author: evan will 
+title: Ian's Timeline
+description: "timeline of important life events"
+year: 2024
+author: Ian Bishop
 # add search box to navbar, true/false
 search: false
 
